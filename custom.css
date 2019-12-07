@@ -28,6 +28,16 @@ nav {
   align-items: center;
   color: #71EEB8;
 }
+.overlay h1 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #71EEB8;
+  border-radius: 10%;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  padding: 1.5rem;
+  font-size: 5rem;
+}
 
 html, body {
   height: 100%;
@@ -38,21 +48,39 @@ html, body {
   color: #90AFC5;
 }
 
+.container {
+  padding: 0px;
+}
+
+.img-fluid {
+  border-radius: 50%;
+}
+
 main {
   background-color: #336B87;
 }
 main img {
   object-fit: cover;
-  border-radius: 50%;
+}
+main div p {
+  text-align: justify;
 }
 main h2 {
-  color: #90AFC5;
+  color: #336B87;
 }
 main .picture {
   border-right: 4px solid #90AFC5;
 }
 main .centric {
   text-align: center;
+}
+main .row {
+  margin: 0px;
+  padding: 0px;
+}
+
+#timeline {
+  background-color: #90AFC5;
 }
 
 /* width */
