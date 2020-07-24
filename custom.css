@@ -32,11 +32,27 @@ nav {
   border-style: solid;
   border-width: 1px;
   border-color: #71EEB8;
-  border-radius: 10%;
+  padding: 4rem;
   border-left-width: 0px;
   border-right-width: 0px;
-  padding: 1.5rem;
   font-size: 5rem;
+}
+
+.card {
+  -webkit-box-shadow: 3px 8px 10px 0px rgba(41, 39, 41, 0.6);
+  -moz-box-shadow: 3px 8px 10px 0px rgba(41, 39, 41, 0.6);
+  box-shadow: 3px 8px 10px 0px rgba(41, 39, 41, 0.6);
+}
+.card :hover {
+  background-color: orange;
+}
+
+.card-img {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.card-img img {
+  width: 28%;
+  height: 90px;
 }
 
 html, body {
